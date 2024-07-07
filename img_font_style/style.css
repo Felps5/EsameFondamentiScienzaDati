@@ -1,0 +1,196 @@
+@font-face {
+    font-family: Nunito;
+    src: url(Nunito.ttf);
+  }
+
+ * {
+    font-family: 'Nunito';
+ }
+
+
+.header-custom {
+   height: 100px;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.footer-custom {
+   height: 100px;
+   width: 100%;
+   position: absolute;
+   top: 600px;
+   left: 0;
+}
+
+.main-custom {
+   position: absolute;
+   top: 100px;
+   left: 0;
+   height: 500px;
+   width: 100%;
+}
+
+body {
+   font-size: x-large;
+}
+
+ul {
+   list-style-type: none;
+ }
+
+ul li::marker {    
+   content: url('basketball-ball.png');
+   margin:0 15px 0 -15px;
+
+}
+
+ p, li {
+    font-size: x-large;
+ }
+
+
+ .reveal pre {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ }
+
+ .reveal h1 {
+    font-family: 'Nunito';
+ }
+
+ .reveal h2 {
+    font-family: 'Nunito';
+}
+
+ .reveal h3 {
+    font-family: 'Nunito';
+ }
+
+ .small_text {
+    font-size: small;
+}
+
+.testo-large {
+   font-size: large !important;
+}
+
+.reveal .controls .controls-arrow {
+   font-size: x-small;
+}
+
+.reveal table{
+   font-size: small;
+}
+
+
+.reveal img {
+   margin: 0 !important;
+}
+
+
+#logo_nba {
+    float: left; 
+    padding-right: 10px; 
+    margin: 0;
+    width:7%; 
+    height: 30%;
+}
+
+#copertina {
+   background: url('copertina2.webp');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+
+#mappa {
+   width: 50%; 
+   height: 50%
+}
+
+#titolo {
+    font-size: 54px;
+    margin: 100px 0px;
+    padding: 100px 0px;
+    color: lightcyan;
+    text-shadow: 0 0 10px #000000, 0 0 10px #000000;
+}
+
+#ringraziamenti {
+   height: 960px;
+   width: 700px;
+   background: url('basketball-game-concept.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
+   color: white;
+   vertical-align: middle;
+   
+}
+
+.reveal .slide-background {
+   background: url('1602.jpg');
+   background-size: 5%;
+   background-position: center;
+
+}
+
+.reveal .slide-background.present {
+   background: url('1602.jpg');
+   opacity: 0.05;
+
+
+}
+
+.grazie {
+   padding-top: 280px;
+   padding-left: 50px;
+   color: white !important;
+}
+
+.nero {
+   border-bottom: 2px solid black;
+   /*color: black;*/
+}
+
+
+.blu {
+   border-bottom: 2px solid;
+   background-image: linear-gradient(to right, rgb(68, 125, 174), rgb(144, 199, 247)) !important;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   border-image: linear-gradient(to right, rgb(68, 125, 174), rgb(144, 199, 247)) 1;
+}
+
+.rosso {
+   border-bottom: 2px solid;
+   background-image: linear-gradient(to right, rgb(196, 78, 72), rgb(250, 124, 118)) !important;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   border-image: linear-gradient(to right, rgb(196, 78, 72), rgb(250, 124, 118)) 1;
+}
+
+.blu-rosa {
+   border-bottom: 2px solid;
+   background-image: linear-gradient(to right, rgb(223, 124, 248), rgb(119, 200, 247)) !important;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   border-image: linear-gradient(to right, rgb(223, 124, 248), rgb(119, 200, 247)) 1;
+}
+
+.arancione {
+   border-bottom: 2px solid;
+   background-image: linear-gradient(to right, orange, rgb(241, 191, 96)) !important;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   border-image: linear-gradient(to right, orange, rgb(241, 191, 96)) 1;
+}
+
+.oro {
+   border-bottom: 2px solid;
+   background-image: linear-gradient(to right, goldenrod, gold) !important;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   border-image: linear-gradient(to right, goldenrod, gold) 1;
+}
